@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.51" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <title>主页 | MWA</title><meta name="description" content="MWA文档">
+    <link rel="preload" href="/assets/style-JNwDEBMD.css" as="style"><link rel="stylesheet" href="/assets/style-JNwDEBMD.css">
+    <link rel="modulepreload" href="/assets/app-BuV44qCI.js"><link rel="modulepreload" href="/assets/index.html-y5ux_lbU.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-DiotBjIn.js" as="script"><link rel="prefetch" href="/assets/404.html-DRBI6TYD.js" as="script"><link rel="prefetch" href="/assets/giscus-D-fkNSKD.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-GXRgw7eJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar external-link-icon home"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><main id="main-content" class="vp-page vp-project-home" aria-labelledby="main-title"><!----><header class="vp-hero-info-wrapper fullscreen"><!--[--><!----><!----><!--]--><div class="vp-hero-info"><!--[--><img class="vp-hero-image" style="" src="https://github.com/MAWHA/.github/raw/main/logo.png" alt="MWA Logo"><!--]--><div class="vp-hero-infos"><h1 id="main-title" class="vp-hero-title">MWA 文档站 | Document</h1><!----><p class="vp-hero-actions"><a class="route-link auto-link vp-hero-action primary no-external-link-icon" href="/guide/" aria-label="使用指南"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-lightbulb" style=""></span><!--]-->使用指南<!----></a></p></div></div></header><!----><!----><div class="theme-hope-content"></div><!----></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BuV44qCI.js" defer></script>
+  </body>
+</html>
