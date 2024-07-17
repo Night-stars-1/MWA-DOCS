@@ -4,6 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  hostname: "https://night-stars-1.github.io",
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://github.com/MAWHA/.github/raw/main/logo.png",
