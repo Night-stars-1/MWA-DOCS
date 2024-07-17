@@ -1,9 +1,3 @@
-/*
- * @Author: Night-stars-1 nujj1042633805@gmail.com
- * @Date: 2024-07-17 20:35:56
- * @LastEditTime: 2024-07-17 21:16:55
- * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- */
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
@@ -14,7 +8,7 @@ export default hopeTheme({
 
   logo: "https://github.com/MAWHA/.github/raw/main/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Night-stars-1/MWA-DOCS",
 
   docsDir: "src",
 
