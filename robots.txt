@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://night-stars-1.github.io/MWA-DOCS/sitemap.xml
+Sitemap: https://night-stars-1.github.io/MWA-DOCS/MWA-DOCS/sitemap.xml
